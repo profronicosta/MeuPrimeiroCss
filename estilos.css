@@ -6,31 +6,31 @@ meu primeiro comentário
 Normalmente para zerar alguns valores padrões de elementeos
 ou definir um valor padrão de estilos  */
 * {
-    color:orange;
+  color: orange;
 }
 
 /*seletor de elemento (tag)*/
-h1 { 
-    color: red;
-    background-color: yellow; 
+h1 {
+  color: red;
+  background-color: yellow;
 }
 
 h2 {
-    color:blue;
-    background-color: aquamarine;
+  color: blue;
+  background-color: aquamarine;
 }
 
 p {
-    color: blueviolet;
+  color: blueviolet;
 }
 
 a {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 body {
-    /* background-image: url('pastel_maria.jpg');
+  /* background-image: url('pastel_maria.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center; */
@@ -38,62 +38,55 @@ body {
 
 /* pseudo classe hover*/
 a:hover {
-    color:black;
-    background-color: darkorange;
-    text-decoration: underline;
+  color: black;
+  background-color: darkorange;
+  text-decoration: underline;
 }
-
 
 /*seletor de ID */
 #Cabecalho3 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 /* Seletor de Classe */
 .texto-pequeno {
-    font-size: 8px;
-    
+  font-size: 8px;
 }
 .texto-rosa {
-    color: pink;
+  color: pink;
 }
 
 /*trabalhando com cores com código hexadecimal*/
 #CorHexa {
-    background-color: #0071c5 ;
-    color: #FFC72C;
-    font-size: 36px;
-    /* Mudando a fonte do texto */
-    font-family: 'Water Brush', cursive;
+  background-color: #0071c5;
+  color: #ffc72c;
+  font-size: 36px;
+  /* Mudando a fonte do texto */
+  font-family: "Water Brush", cursive;
 }
 
 .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
 
+#ModeloCaixa {
+  background-color: #ffc72c;
+  /* Bordas */
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue red green;
+  /* Padding */
+  padding: 10px 5px 20px;
+  /* Margin */
+  margin: 50px 20px 20px 20px;
+  /* Cantos arredondandos*/
+  border-radius: 10px;
+}
 
-  #ModeloCaixa {
-      background-color: #FFC72C;
-      /* Bordas */
-      border-style:solid;
-      border-width: 3px;
-      border-color: blue red green;
-      /* Padding */
-      padding: 10px 5px 20px;
-      /* Margin */
-      margin: 50px 20px 20px 20px;
-      /* Cantos arredondandos*/
-      border-radius: 10px;
-  }
-
-  .imagens {
-      border-width: 5px;
-      border-style: solid;
-      border-color: chocolate;
-      padding: 2px;
-      border-radius: 5px;
-  }
+.imagens {
+  border-width: 5px;
+  border-style: solid;
+  border-color: chocolate;
+  padding: 2px;
+  border-radius: 5px;
+}
